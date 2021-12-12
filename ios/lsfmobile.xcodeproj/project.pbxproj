@@ -1,0 +1,1611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* lsfmobileTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* lsfmobileTests.m */; };
+		02E0EEC526B8136500035B38 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 02E0EEBB26B8136500035B38 /* GoogleService-Info.plist */; };
+		047B92F826A995FA007DFC77 /* SF Pro Display_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E62FEAB7F6476392158CA9 /* SF Pro Display_Regular.ttf */; };
+		047B92F926A995FA007DFC77 /* SF Pro Display_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B036EC67EE0A47F48A8F91FC /* SF Pro Display_Bold.ttf */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1905411E263BA7EF001451D2 /* BrandonGrotesque-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 190540D4263BA7EF001451D2 /* BrandonGrotesque-Black.otf */; };
+		196D910F25A2AA0900DB7559 /* img_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910525A2AA0900DB7559 /* img_4.jpg */; };
+		196D911025A2AA0900DB7559 /* img_8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910625A2AA0900DB7559 /* img_8.jpg */; };
+		196D911125A2AA0900DB7559 /* img_6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910725A2AA0900DB7559 /* img_6.jpg */; };
+		196D911225A2AA0900DB7559 /* img_0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910825A2AA0900DB7559 /* img_0.jpg */; };
+		196D911325A2AA0900DB7559 /* img_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910925A2AA0900DB7559 /* img_1.jpg */; };
+		196D911425A2AA0900DB7559 /* img_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910A25A2AA0900DB7559 /* img_3.jpg */; };
+		196D911525A2AA0900DB7559 /* img_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910B25A2AA0900DB7559 /* img_2.jpg */; };
+		196D911625A2AA0900DB7559 /* img_9.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910C25A2AA0900DB7559 /* img_9.jpg */; };
+		196D911725A2AA0900DB7559 /* img_7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910D25A2AA0900DB7559 /* img_7.jpg */; };
+		196D911825A2AA0900DB7559 /* img_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196D910E25A2AA0900DB7559 /* img_5.jpg */; };
+		19DEDFAE257C581A00750B64 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19DEDFAD257C581A00750B64 /* File.swift */; };
+		19F456622617ED5700F80F88 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F456612617ED5700F80F88 /* ExternalAccessory.framework */; };
+		2446BABD3F5E41B9B8594839 /* Northwell Swash.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF25E6EFCC9643C4A67E71D0 /* Northwell Swash.ttf */; };
+		2AAA9F8724696A9100843FBD /* SF Pro Text Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F3D24696A9000843FBD /* SF Pro Text Heavy.otf */; };
+		2AAA9F8824696A9100843FBD /* SF Pro Text Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F3D24696A9000843FBD /* SF Pro Text Heavy.otf */; };
+		2AAA9F8924696A9100843FBD /* SF Pro Text Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8124696A9000843FBD /* SF Pro Text Regular.otf */; };
+		2AAA9F8A24696A9100843FBD /* SF Pro Text Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8124696A9000843FBD /* SF Pro Text Regular.otf */; };
+		2AAA9F8B24696A9100843FBD /* SF Pro Text Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8224696A9000843FBD /* SF Pro Text Bold.otf */; };
+		2AAA9F8C24696A9100843FBD /* SF Pro Text Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8224696A9000843FBD /* SF Pro Text Bold.otf */; };
+		2AAA9F8D24696A9100843FBD /* SF Pro Text Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8324696A9000843FBD /* SF Pro Text Medium.otf */; };
+		2AAA9F8E24696A9100843FBD /* SF Pro Text Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8324696A9000843FBD /* SF Pro Text Medium.otf */; };
+		2AAA9F8F24696A9100843FBD /* SF Pro Text Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8424696A9000843FBD /* SF Pro Text Semibold Italic.otf */; };
+		2AAA9F9024696A9100843FBD /* SF Pro Text Semibold Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8424696A9000843FBD /* SF Pro Text Semibold Italic.otf */; };
+		2AAA9F9124696A9100843FBD /* SF Pro Text Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8524696A9000843FBD /* SF Pro Text Thin.otf */; };
+		2AAA9F9224696A9100843FBD /* SF Pro Text Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8524696A9000843FBD /* SF Pro Text Thin.otf */; };
+		2AAA9F9324696A9100843FBD /* SF Pro Text Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8624696A9000843FBD /* SF Pro Text Light.otf */; };
+		2AAA9F9424696A9100843FBD /* SF Pro Text Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2AAA9F8624696A9000843FBD /* SF Pro Text Light.otf */; };
+		2C664F7A7B774DBCB362E04D /* Sofia Pro Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = A96265B31BFE4414A6C6AD92 /* Sofia Pro Regular.otf */; };
+		2ECE6E1166AD65EA054A8177 /* libPods-lsfmobileTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 281809BD704F300950FB21CB /* libPods-lsfmobileTests.a */; };
+		334E345121D892B1003F7C9A /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E344E21D892B0003F7C9A /* SpotifyMetadata.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		334E345221D892B1003F7C9A /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E344F21D892B1003F7C9A /* SpotifyAuthentication.framework */; };
+		334E345321D892B1003F7C9A /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 334E345021D892B1003F7C9A /* SpotifyAudioPlayback.framework */; };
+		33A07FB221CB6A6D00CE0B22 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33A07F8421CB6A6D00CE0B22 /* LaunchScreen.xib */; };
+		33A29B3021B32EC50087BB1B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 33A29B0721B32EC50087BB1B /* GoogleService-Info.plist */; };
+		3A16CD82F353454E95DCF0DF /* Sofia Pro Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5157A7F336314A6F8D262939 /* Sofia Pro Black.otf */; };
+		50533B4FDA024E33B8BF490D /* Northwell Swash.otf in Resources */ = {isa = PBXBuildFile; fileRef = C0457BFF79AF4701A41B2D59 /* Northwell Swash.otf */; };
+		61C99F0FBD040F9F409E1B3A /* libPods-lsfmobile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EEBFE40AC1D6859FB459FAC /* libPods-lsfmobile.a */; };
+		6743B62622500BF700444EFB /* ProdChecker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6743B62522500BF700444EFB /* ProdChecker.m */; };
+		692DA1B0585347BD9044792F /* SF Pro Display_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 95E62FEAB7F6476392158CA9 /* SF Pro Display_Regular.ttf */; };
+		6CA739C24FC641F8828E6B72 /* Northwell.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AEF4417CF165490FA8E1BF42 /* Northwell.ttf */; };
+		7D06CFE2CFE645BBB420C26F /* Northwell Alt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 54B48CAA5EB744A785E0789D /* Northwell Alt.otf */; };
+		87635B787C8647AAAD9F663D /* Sofia Pro Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5F1687385E254842B9877390 /* Sofia Pro Bold.otf */; };
+		89D218C4C4724983908D62F2 /* Sofia Pro ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 554DF0D99F47450EB066E356 /* Sofia Pro ExtraLight.otf */; };
+		8DAB589B34D54E3BA9390691 /* SF Pro Display_Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B036EC67EE0A47F48A8F91FC /* SF Pro Display_Bold.ttf */; };
+		9809B7EEDB454FD29AD9EA44 /* Northwell.otf in Resources */ = {isa = PBXBuildFile; fileRef = F0A1A35DF1174064AC08E4CB /* Northwell.otf */; };
+		AF6F17B4010C43B5B06780C2 /* Sofia Pro Medium Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = BCC08C6BE92C445DA6BC6201 /* Sofia Pro Medium Italic.otf */; };
+		D0B7763EDA3848F2852B578F /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 624D491B9842440389DE7CA8 /* AppCenter-Config.plist */; };
+		E68210901F6440D78B8B1ED9 /* Sofia Pro Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 919E34EA14504F8396C15BF2 /* Sofia Pro Light.otf */; };
+		E6EB3B60BC9D4F5198C7F559 /* Northwell Alt.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BB1102DCD0464484A2FEC6CD /* Northwell Alt.ttf */; };
+		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
+		F4C1D36306E64A33B7C84DA8 /* Sofia Pro Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = F5CF6B330BB24E98A4D49234 /* Sofia Pro Medium.otf */; };
+		F7AA96E6DEE9452FB37987CD /* Sofia Pro Semi Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1ABFD13289E04802ACB91772 /* Sofia Pro Semi Bold.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = lsfmobile;
+		};
+		195139A525F06B2800F67B70 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCA0A1569A8B4179809D99FC /* RNGoogleCast.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RNGoogleCast;
+		};
+		19A5C1202582A40C0012E346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5C11C2582A40C0012E346 /* LottieReactNative.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 11FA5C511C4A1296003AC2EE;
+			remoteInfo = LottieReactNative;
+		};
+		19A5C12A2582A4120012E346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5C1222582A4120012E346 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E83B2220A317C007CD915;
+			remoteInfo = Lottie_iOS;
+		};
+		19A5C12C2582A4120012E346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5C1222582A4120012E346 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E84E2220A357D007CD915;
+			remoteInfo = Lottie_tvOS;
+		};
+		19A5C12E2582A4120012E346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5C1222582A4120012E346 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E8567220A3605007CD915;
+			remoteInfo = Lottie_macOS;
+		};
+		19A5C1302582A4120012E346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5C1222582A4120012E346 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E85F3220A36F6007CD915;
+			remoteInfo = LottieLibraryIOS;
+		};
+		19A5C1322582A4120012E346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 19A5C1222582A4120012E346 /* Lottie.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 486E8675220A3751007CD915;
+			remoteInfo = LottieLibraryMacOS;
+		};
+		67623A6921D1EE1300B76074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67623A6521D1EE1200B76074 /* RCTOrientation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 134814201AA4EA6300B7C361;
+			remoteInfo = RCTOrientation;
+		};
+		81004AE223149358005235D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 67623A6521D1EE1200B76074 /* RCTOrientation.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = B59029A92237E1A400A9DA7D;
+			remoteInfo = "RCTOrientation-tvOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A6FF376250248FE0079DA5E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
+		00E356EE1AD99517003FC87E /* lsfmobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lsfmobileTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* lsfmobileTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lsfmobileTests.m; sourceTree = "<group>"; };
+		02E0EEBB26B8136500035B38 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* LSF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LSF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = lsfmobile/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = lsfmobile/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = lsfmobile/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = lsfmobile/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = lsfmobile/main.m; sourceTree = "<group>"; };
+		190540D4263BA7EF001451D2 /* BrandonGrotesque-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BrandonGrotesque-Black.otf"; sourceTree = "<group>"; };
+		196D910525A2AA0900DB7559 /* img_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_4.jpg; path = HowItWorksAnimationAssets/img_4.jpg; sourceTree = "<group>"; };
+		196D910625A2AA0900DB7559 /* img_8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_8.jpg; path = HowItWorksAnimationAssets/img_8.jpg; sourceTree = "<group>"; };
+		196D910725A2AA0900DB7559 /* img_6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_6.jpg; path = HowItWorksAnimationAssets/img_6.jpg; sourceTree = "<group>"; };
+		196D910825A2AA0900DB7559 /* img_0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_0.jpg; path = HowItWorksAnimationAssets/img_0.jpg; sourceTree = "<group>"; };
+		196D910925A2AA0900DB7559 /* img_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_1.jpg; path = HowItWorksAnimationAssets/img_1.jpg; sourceTree = "<group>"; };
+		196D910A25A2AA0900DB7559 /* img_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_3.jpg; path = HowItWorksAnimationAssets/img_3.jpg; sourceTree = "<group>"; };
+		196D910B25A2AA0900DB7559 /* img_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_2.jpg; path = HowItWorksAnimationAssets/img_2.jpg; sourceTree = "<group>"; };
+		196D910C25A2AA0900DB7559 /* img_9.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_9.jpg; path = HowItWorksAnimationAssets/img_9.jpg; sourceTree = "<group>"; };
+		196D910D25A2AA0900DB7559 /* img_7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_7.jpg; path = HowItWorksAnimationAssets/img_7.jpg; sourceTree = "<group>"; };
+		196D910E25A2AA0900DB7559 /* img_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = img_5.jpg; path = HowItWorksAnimationAssets/img_5.jpg; sourceTree = "<group>"; };
+		19A5C11C2582A40C0012E346 /* LottieReactNative.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LottieReactNative.xcodeproj; path = "../node_modules/lottie-react-native/src/ios/LottieReactNative.xcodeproj"; sourceTree = "<group>"; };
+		19A5C1222582A4120012E346 /* Lottie.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Lottie.xcodeproj; path = "../node_modules/lottie-ios/Lottie.xcodeproj"; sourceTree = "<group>"; };
+		19DEDFAC257C581A00750B64 /* lsfmobile-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "lsfmobile-Bridging-Header.h"; sourceTree = "<group>"; };
+		19DEDFAD257C581A00750B64 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		19F456612617ED5700F80F88 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		1A3B4E64F838489689AB4961 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		1ABFD13289E04802ACB91772 /* Sofia Pro Semi Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Semi Bold.otf"; path = "../res/fonts/Sofia Pro Semi Bold.otf"; sourceTree = "<group>"; };
+		1F7FE97269C5423CA10D3765 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		25696ECA6B1D4042B37C249B /* libRNSpotify.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNSpotify.a; sourceTree = "<group>"; };
+		281809BD704F300950FB21CB /* libPods-lsfmobileTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lsfmobileTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AAA9F3D24696A9000843FBD /* SF Pro Text Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Heavy.otf"; path = "../res/fonts/SF Pro Text Heavy.otf"; sourceTree = "<group>"; };
+		2AAA9F8124696A9000843FBD /* SF Pro Text Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Regular.otf"; path = "../res/fonts/SF Pro Text Regular.otf"; sourceTree = "<group>"; };
+		2AAA9F8224696A9000843FBD /* SF Pro Text Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Bold.otf"; path = "../res/fonts/SF Pro Text Bold.otf"; sourceTree = "<group>"; };
+		2AAA9F8324696A9000843FBD /* SF Pro Text Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Medium.otf"; path = "../res/fonts/SF Pro Text Medium.otf"; sourceTree = "<group>"; };
+		2AAA9F8424696A9000843FBD /* SF Pro Text Semibold Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Semibold Italic.otf"; path = "../res/fonts/SF Pro Text Semibold Italic.otf"; sourceTree = "<group>"; };
+		2AAA9F8524696A9000843FBD /* SF Pro Text Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Thin.otf"; path = "../res/fonts/SF Pro Text Thin.otf"; sourceTree = "<group>"; };
+		2AAA9F8624696A9000843FBD /* SF Pro Text Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "SF Pro Text Light.otf"; path = "../res/fonts/SF Pro Text Light.otf"; sourceTree = "<group>"; };
+		2AF418F124F9419100DC035D /* liblottie-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF418F224F9419100DC035D /* liblottie-react-native.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "liblottie-react-native.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		334E344E21D892B0003F7C9A /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyMetadata.framework; path = "../node_modules/rn-spotify-sdk/ios/external/SpotifySDK/SpotifyMetadata.framework"; sourceTree = "<group>"; };
+		334E344F21D892B1003F7C9A /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAuthentication.framework; path = "../node_modules/rn-spotify-sdk/ios/external/SpotifySDK/SpotifyAuthentication.framework"; sourceTree = "<group>"; };
+		334E345021D892B1003F7C9A /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpotifyAudioPlayback.framework; path = "../node_modules/rn-spotify-sdk/ios/external/SpotifySDK/SpotifyAudioPlayback.framework"; sourceTree = "<group>"; };
+		335ACE4221BFCBD3002FA810 /* libBVLinearGradient.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libBVLinearGradient.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3368F6A821DE13CD00AECDA5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../../../Documents/FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		3368F6B021DE259D00AECDA5 /* lsfmobile.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = lsfmobile.entitlements; path = lsfmobile/lsfmobile.entitlements; sourceTree = "<group>"; };
+		33A07F8521CB6A6D00CE0B22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = lsfmobile/Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33A29B0721B32EC50087BB1B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		36156512267D43FC9DD94C62 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		41CB3D39477F4DC4BA07EAFB /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		48B65707FF61802F3DC38392 /* Pods-lsfmobileTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobileTests.release.xcconfig"; path = "Target Support Files/Pods-lsfmobileTests/Pods-lsfmobileTests.release.xcconfig"; sourceTree = "<group>"; };
+		49C8C2DC101F4C9E8E9D50BE /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		5157A7F336314A6F8D262939 /* Sofia Pro Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Black.otf"; path = "../res/fonts/Sofia Pro Black.otf"; sourceTree = "<group>"; };
+		543A788A509C5C1A42072F96 /* Pods-lsfmobile.debugskippaywall.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobile.debugskippaywall.xcconfig"; path = "Target Support Files/Pods-lsfmobile/Pods-lsfmobile.debugskippaywall.xcconfig"; sourceTree = "<group>"; };
+		54B48CAA5EB744A785E0789D /* Northwell Alt.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Northwell Alt.otf"; path = "../res/fonts/Northwell Alt.otf"; sourceTree = "<group>"; };
+		554DF0D99F47450EB066E356 /* Sofia Pro ExtraLight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro ExtraLight.otf"; path = "../res/fonts/Sofia Pro ExtraLight.otf"; sourceTree = "<group>"; };
+		58BD5CBD641549B080586AE7 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		593C3852B3DC4361BD2094D2 /* libAppCenterReactNativeCrashes.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeCrashes.a; sourceTree = "<group>"; };
+		5E28158BC1EF4691BA4B2601 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		5F1687385E254842B9877390 /* Sofia Pro Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Bold.otf"; path = "../res/fonts/Sofia Pro Bold.otf"; sourceTree = "<group>"; };
+		624D491B9842440389DE7CA8 /* AppCenter-Config.plist */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = text.plist.xml; name = "AppCenter-Config.plist"; path = "lsfmobile/AppCenter-Config.plist"; sourceTree = "<group>"; };
+		64550857263440E494E00D61 /* libAppCenterReactNativeAnalytics.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNativeAnalytics.a; sourceTree = "<group>"; };
+		6743B5E52250097D00444EFB /* ProdChecker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProdChecker.h; sourceTree = "<group>"; };
+		6743B62522500BF700444EFB /* ProdChecker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProdChecker.m; sourceTree = "<group>"; };
+		67623A6521D1EE1200B76074 /* RCTOrientation.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTOrientation.xcodeproj; path = "../node_modules/react-native-orientation-locker/iOS/RCTOrientation.xcodeproj"; sourceTree = "<group>"; };
+		67D2DA589FF417B8A7DDC767 /* Pods-lsfmobileTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobileTests.debug.xcconfig"; path = "Target Support Files/Pods-lsfmobileTests/Pods-lsfmobileTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6A819688D4EA967230DF5653 /* Pods-lsfmobileTests.debugskippaywall.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobileTests.debugskippaywall.xcconfig"; path = "Target Support Files/Pods-lsfmobileTests/Pods-lsfmobileTests.debugskippaywall.xcconfig"; sourceTree = "<group>"; };
+		7E114F8540D648ACBD2770DF /* libRNAudioSession.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNAudioSession.a; sourceTree = "<group>"; };
+		88872BB2ECAE426DA056F9BB /* libRNEventEmitter.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNEventEmitter.a; sourceTree = "<group>"; };
+		89ED18009BDC4008A99CDAA8 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		8EEBFE40AC1D6859FB459FAC /* libPods-lsfmobile.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-lsfmobile.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA8FDFF1BA74AAEB1FC180C /* libAppCenterReactNative.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libAppCenterReactNative.a; sourceTree = "<group>"; };
+		919E34EA14504F8396C15BF2 /* Sofia Pro Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Light.otf"; path = "../res/fonts/Sofia Pro Light.otf"; sourceTree = "<group>"; };
+		95E62FEAB7F6476392158CA9 /* SF Pro Display_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF Pro Display_Regular.ttf"; path = "../res/fonts/SF Pro Display_Regular.ttf"; sourceTree = "<group>"; };
+		A2C320F01A384768AB732F9A /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		A5B77975F7924384AD514916 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		A9085C6373724FC1B63615D7 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		A96265B31BFE4414A6C6AD92 /* Sofia Pro Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Regular.otf"; path = "../res/fonts/Sofia Pro Regular.otf"; sourceTree = "<group>"; };
+		AE9FE6AD05B049BEA9CE96AF /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		AEF4417CF165490FA8E1BF42 /* Northwell.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Northwell.ttf; path = ../res/fonts/Northwell.ttf; sourceTree = "<group>"; };
+		B036EC67EE0A47F48A8F91FC /* SF Pro Display_Bold.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF Pro Display_Bold.ttf"; path = "../res/fonts/SF Pro Display_Bold.ttf"; sourceTree = "<group>"; };
+		B87884BCC959453CBFCE5B2D /* libRNUUIDGenerator.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNUUIDGenerator.a; sourceTree = "<group>"; };
+		BB1102DCD0464484A2FEC6CD /* Northwell Alt.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Northwell Alt.ttf"; path = "../res/fonts/Northwell Alt.ttf"; sourceTree = "<group>"; };
+		BCC08C6BE92C445DA6BC6201 /* Sofia Pro Medium Italic.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Medium Italic.otf"; path = "../res/fonts/Sofia Pro Medium Italic.otf"; sourceTree = "<group>"; };
+		C0457BFF79AF4701A41B2D59 /* Northwell Swash.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Northwell Swash.otf"; path = "../res/fonts/Northwell Swash.otf"; sourceTree = "<group>"; };
+		C5AE2D395D69B983E23BE6E9 /* Pods-lsfmobileTests.releaseskippaywall.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobileTests.releaseskippaywall.xcconfig"; path = "Target Support Files/Pods-lsfmobileTests/Pods-lsfmobileTests.releaseskippaywall.xcconfig"; sourceTree = "<group>"; };
+		C7CC390937DD4F69AC027A53 /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		CCA0A1569A8B4179809D99FC /* RNGoogleCast.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNGoogleCast.xcodeproj; path = "../node_modules/react-native-google-cast/ios/RNGoogleCast.xcodeproj"; sourceTree = "<group>"; };
+		D738D472C6B501EB7274F3E3 /* Pods-lsfmobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobile.release.xcconfig"; path = "Target Support Files/Pods-lsfmobile/Pods-lsfmobile.release.xcconfig"; sourceTree = "<group>"; };
+		E4D24F691BF844008BBBCAC9 /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E962DC526E064684894C6283 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		EF25E6EFCC9643C4A67E71D0 /* Northwell Swash.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Northwell Swash.ttf"; path = "../res/fonts/Northwell Swash.ttf"; sourceTree = "<group>"; };
+		F0A1A35DF1174064AC08E4CB /* Northwell.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Northwell.otf; path = ../res/fonts/Northwell.otf; sourceTree = "<group>"; };
+		F1BDFE4C90F141FD878A7206 /* libRNFirebase.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNFirebase.a; sourceTree = "<group>"; };
+		F4165D440CCAB7BBA0DF0CD2 /* Pods-lsfmobile.releaseskippaywall.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobile.releaseskippaywall.xcconfig"; path = "Target Support Files/Pods-lsfmobile/Pods-lsfmobile.releaseskippaywall.xcconfig"; sourceTree = "<group>"; };
+		F5CF6B330BB24E98A4D49234 /* Sofia Pro Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "Sofia Pro Medium.otf"; path = "../res/fonts/Sofia Pro Medium.otf"; sourceTree = "<group>"; };
+		FB14F8977235C7FFF6862E4B /* Pods-lsfmobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-lsfmobile.debug.xcconfig"; path = "Target Support Files/Pods-lsfmobile/Pods-lsfmobile.debug.xcconfig"; sourceTree = "<group>"; };
+		FC1D9D9A5D5A4D79A6F0086E /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2ECE6E1166AD65EA054A8177 /* libPods-lsfmobileTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
+				334E345221D892B1003F7C9A /* SpotifyAuthentication.framework in Frameworks */,
+				334E345121D892B1003F7C9A /* SpotifyMetadata.framework in Frameworks */,
+				334E345321D892B1003F7C9A /* SpotifyAudioPlayback.framework in Frameworks */,
+				19F456622617ED5700F80F88 /* ExternalAccessory.framework in Frameworks */,
+				61C99F0FBD040F9F409E1B3A /* libPods-lsfmobile.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* lsfmobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* lsfmobileTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = lsfmobileTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05AAB149696B34A8DF364695 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FB14F8977235C7FFF6862E4B /* Pods-lsfmobile.debug.xcconfig */,
+				543A788A509C5C1A42072F96 /* Pods-lsfmobile.debugskippaywall.xcconfig */,
+				D738D472C6B501EB7274F3E3 /* Pods-lsfmobile.release.xcconfig */,
+				F4165D440CCAB7BBA0DF0CD2 /* Pods-lsfmobile.releaseskippaywall.xcconfig */,
+				67D2DA589FF417B8A7DDC767 /* Pods-lsfmobileTests.debug.xcconfig */,
+				6A819688D4EA967230DF5653 /* Pods-lsfmobileTests.debugskippaywall.xcconfig */,
+				48B65707FF61802F3DC38392 /* Pods-lsfmobileTests.release.xcconfig */,
+				C5AE2D395D69B983E23BE6E9 /* Pods-lsfmobileTests.releaseskippaywall.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* lsfmobile */ = {
+			isa = PBXGroup;
+			children = (
+				196D911925A2AA0F00DB7559 /* HowItWorksAnimationAssets */,
+				196D910C25A2AA0900DB7559 /* img_9.jpg */,
+				3368F6B021DE259D00AECDA5 /* lsfmobile.entitlements */,
+				33A07F8421CB6A6D00CE0B22 /* LaunchScreen.xib */,
+				6743B5E52250097D00444EFB /* ProdChecker.h */,
+				33A29B0721B32EC50087BB1B /* GoogleService-Info.plist */,
+				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				6743B62522500BF700444EFB /* ProdChecker.m */,
+			);
+			name = lsfmobile;
+			sourceTree = "<group>";
+		};
+		195139A225F06B2800F67B70 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				195139A625F06B2800F67B70 /* libRNGoogleCast.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		196D911925A2AA0F00DB7559 /* HowItWorksAnimationAssets */ = {
+			isa = PBXGroup;
+			children = (
+				196D910825A2AA0900DB7559 /* img_0.jpg */,
+				196D910925A2AA0900DB7559 /* img_1.jpg */,
+				196D910B25A2AA0900DB7559 /* img_2.jpg */,
+				196D910A25A2AA0900DB7559 /* img_3.jpg */,
+				196D910525A2AA0900DB7559 /* img_4.jpg */,
+				196D910E25A2AA0900DB7559 /* img_5.jpg */,
+				196D910725A2AA0900DB7559 /* img_6.jpg */,
+				196D910D25A2AA0900DB7559 /* img_7.jpg */,
+				196D910625A2AA0900DB7559 /* img_8.jpg */,
+			);
+			name = HowItWorksAnimationAssets;
+			sourceTree = "<group>";
+		};
+		19A5C11D2582A40C0012E346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A5C1212582A40C0012E346 /* libLottieReactNative.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		19A5C1232582A4120012E346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				19A5C12B2582A4120012E346 /* Lottie.framework */,
+				19A5C12D2582A4120012E346 /* Lottie.framework */,
+				19A5C12F2582A4120012E346 /* Lottie.framework */,
+				19A5C1312582A4120012E346 /* libLottie.a */,
+				19A5C1332582A4120012E346 /* libLottie.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				19F456612617ED5700F80F88 /* ExternalAccessory.framework */,
+				2AF418F124F9419100DC035D /* liblottie-ios.a */,
+				2AF418F224F9419100DC035D /* liblottie-react-native.a */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
+				3368F6A821DE13CD00AECDA5 /* Bolts.framework */,
+				334E345021D892B1003F7C9A /* SpotifyAudioPlayback.framework */,
+				334E344F21D892B1003F7C9A /* SpotifyAuthentication.framework */,
+				334E344E21D892B0003F7C9A /* SpotifyMetadata.framework */,
+				335ACE4221BFCBD3002FA810 /* libBVLinearGradient.a */,
+				2D16E6891FA4F8E400B85C8A /* libReact.a */,
+				8EEBFE40AC1D6859FB459FAC /* libPods-lsfmobile.a */,
+				281809BD704F300950FB21CB /* libPods-lsfmobileTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		330FAEAA218A6BEB003962B4 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				F1BDFE4C90F141FD878A7206 /* libRNFirebase.a */,
+				B87884BCC959453CBFCE5B2D /* libRNUUIDGenerator.a */,
+				88872BB2ECAE426DA056F9BB /* libRNEventEmitter.a */,
+				25696ECA6B1D4042B37C249B /* libRNSpotify.a */,
+				8FA8FDFF1BA74AAEB1FC180C /* libAppCenterReactNative.a */,
+				64550857263440E494E00D61 /* libAppCenterReactNativeAnalytics.a */,
+				593C3852B3DC4361BD2094D2 /* libAppCenterReactNativeCrashes.a */,
+				7E114F8540D648ACBD2770DF /* libRNAudioSession.a */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		405BE7A84CA14028B2C2F412 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				190540D4263BA7EF001451D2 /* BrandonGrotesque-Black.otf */,
+				BB1102DCD0464484A2FEC6CD /* Northwell Alt.ttf */,
+				EF25E6EFCC9643C4A67E71D0 /* Northwell Swash.ttf */,
+				AEF4417CF165490FA8E1BF42 /* Northwell.ttf */,
+				2AAA9F8224696A9000843FBD /* SF Pro Text Bold.otf */,
+				2AAA9F3D24696A9000843FBD /* SF Pro Text Heavy.otf */,
+				2AAA9F8624696A9000843FBD /* SF Pro Text Light.otf */,
+				2AAA9F8324696A9000843FBD /* SF Pro Text Medium.otf */,
+				2AAA9F8124696A9000843FBD /* SF Pro Text Regular.otf */,
+				2AAA9F8424696A9000843FBD /* SF Pro Text Semibold Italic.otf */,
+				2AAA9F8524696A9000843FBD /* SF Pro Text Thin.otf */,
+				5157A7F336314A6F8D262939 /* Sofia Pro Black.otf */,
+				5F1687385E254842B9877390 /* Sofia Pro Bold.otf */,
+				554DF0D99F47450EB066E356 /* Sofia Pro ExtraLight.otf */,
+				919E34EA14504F8396C15BF2 /* Sofia Pro Light.otf */,
+				BCC08C6BE92C445DA6BC6201 /* Sofia Pro Medium Italic.otf */,
+				F5CF6B330BB24E98A4D49234 /* Sofia Pro Medium.otf */,
+				A96265B31BFE4414A6C6AD92 /* Sofia Pro Regular.otf */,
+				1ABFD13289E04802ACB91772 /* Sofia Pro Semi Bold.otf */,
+				C7CC390937DD4F69AC027A53 /* AntDesign.ttf */,
+				A9085C6373724FC1B63615D7 /* Entypo.ttf */,
+				5E28158BC1EF4691BA4B2601 /* EvilIcons.ttf */,
+				58BD5CBD641549B080586AE7 /* Feather.ttf */,
+				E4D24F691BF844008BBBCAC9 /* FontAwesome.ttf */,
+				AE9FE6AD05B049BEA9CE96AF /* FontAwesome5_Brands.ttf */,
+				36156512267D43FC9DD94C62 /* FontAwesome5_Regular.ttf */,
+				A5B77975F7924384AD514916 /* FontAwesome5_Solid.ttf */,
+				A2C320F01A384768AB732F9A /* Foundation.ttf */,
+				E962DC526E064684894C6283 /* Ionicons.ttf */,
+				FC1D9D9A5D5A4D79A6F0086E /* MaterialCommunityIcons.ttf */,
+				49C8C2DC101F4C9E8E9D50BE /* MaterialIcons.ttf */,
+				41CB3D39477F4DC4BA07EAFB /* Octicons.ttf */,
+				89ED18009BDC4008A99CDAA8 /* SimpleLineIcons.ttf */,
+				1A3B4E64F838489689AB4961 /* Zocial.ttf */,
+				54B48CAA5EB744A785E0789D /* Northwell Alt.otf */,
+				C0457BFF79AF4701A41B2D59 /* Northwell Swash.otf */,
+				F0A1A35DF1174064AC08E4CB /* Northwell.otf */,
+				1F7FE97269C5423CA10D3765 /* Fontisto.ttf */,
+				B036EC67EE0A47F48A8F91FC /* SF Pro Display_Bold.ttf */,
+				95E62FEAB7F6476392158CA9 /* SF Pro Display_Regular.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		67623A6621D1EE1200B76074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67623A6A21D1EE1300B76074 /* libRCTOrientation.a */,
+				81004AE323149358005235D2 /* libRCTOrientation-tvOS.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				19A5C1222582A4120012E346 /* Lottie.xcodeproj */,
+				19A5C11C2582A40C0012E346 /* LottieReactNative.xcodeproj */,
+				CCA0A1569A8B4179809D99FC /* RNGoogleCast.xcodeproj */,
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				19DEDFAD257C581A00750B64 /* File.swift */,
+				13B07FAE1A68108700A75B9A /* lsfmobile */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* lsfmobileTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				330FAEAA218A6BEB003962B4 /* Recovered References */,
+				405BE7A84CA14028B2C2F412 /* Resources */,
+				05AAB149696B34A8DF364695 /* Pods */,
+				624D491B9842440389DE7CA8 /* AppCenter-Config.plist */,
+				02E0EEBB26B8136500035B38 /* GoogleService-Info.plist */,
+				19DEDFAC257C581A00750B64 /* lsfmobile-Bridging-Header.h */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* LSF.app */,
+				00E356EE1AD99517003FC87E /* lsfmobileTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* lsfmobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "lsfmobileTests" */;
+			buildPhases = (
+				B0812389BA45E0F1764CFF03 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = lsfmobileTests;
+			productName = lsfmobileTests;
+			productReference = 00E356EE1AD99517003FC87E /* lsfmobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* lsfmobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lsfmobile" */;
+			buildPhases = (
+				BE371624BBD71E66EF724650 /* [CP] Check Pods Manifest.lock */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				2A6FF376250248FE0079DA5E /* Embed Frameworks */,
+				DC120B6FE36D5EE9B4BBA9BF /* [CP] Copy Pods Resources */,
+				B1C1F8E824DD286ED013D1A4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lsfmobile;
+			productName = "Hello World";
+			productReference = 13B07F961A680F5B00A75B9A /* LSF.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 940;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 4YPF27MH85;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						DevelopmentTeam = 4YPF27MH85;
+						LastSwiftMigration = 1200;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "lsfmobile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 19A5C1232582A4120012E346 /* Products */;
+					ProjectRef = 19A5C1222582A4120012E346 /* Lottie.xcodeproj */;
+				},
+				{
+					ProductGroup = 19A5C11D2582A40C0012E346 /* Products */;
+					ProjectRef = 19A5C11C2582A40C0012E346 /* LottieReactNative.xcodeproj */;
+				},
+				{
+					ProductGroup = 67623A6621D1EE1200B76074 /* Products */;
+					ProjectRef = 67623A6521D1EE1200B76074 /* RCTOrientation.xcodeproj */;
+				},
+				{
+					ProductGroup = 195139A225F06B2800F67B70 /* Products */;
+					ProjectRef = CCA0A1569A8B4179809D99FC /* RNGoogleCast.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* lsfmobile */,
+				00E356ED1AD99517003FC87E /* lsfmobileTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		195139A625F06B2800F67B70 /* libRNGoogleCast.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRNGoogleCast.a;
+			remoteRef = 195139A525F06B2800F67B70 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19A5C1212582A40C0012E346 /* libLottieReactNative.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottieReactNative.a;
+			remoteRef = 19A5C1202582A40C0012E346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19A5C12B2582A4120012E346 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 19A5C12A2582A4120012E346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19A5C12D2582A4120012E346 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 19A5C12C2582A4120012E346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19A5C12F2582A4120012E346 /* Lottie.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Lottie.framework;
+			remoteRef = 19A5C12E2582A4120012E346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19A5C1312582A4120012E346 /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = 19A5C1302582A4120012E346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		19A5C1332582A4120012E346 /* libLottie.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libLottie.a;
+			remoteRef = 19A5C1322582A4120012E346 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		67623A6A21D1EE1300B76074 /* libRCTOrientation.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libRCTOrientation.a;
+			remoteRef = 67623A6921D1EE1300B76074 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		81004AE323149358005235D2 /* libRCTOrientation-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libRCTOrientation-tvOS.a";
+			remoteRef = 81004AE223149358005235D2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AAA9F9024696A9100843FBD /* SF Pro Text Semibold Italic.otf in Resources */,
+				2AAA9F8C24696A9100843FBD /* SF Pro Text Bold.otf in Resources */,
+				2AAA9F8E24696A9100843FBD /* SF Pro Text Medium.otf in Resources */,
+				2AAA9F8824696A9100843FBD /* SF Pro Text Heavy.otf in Resources */,
+				2AAA9F9424696A9100843FBD /* SF Pro Text Light.otf in Resources */,
+				2AAA9F8A24696A9100843FBD /* SF Pro Text Regular.otf in Resources */,
+				2AAA9F9224696A9100843FBD /* SF Pro Text Thin.otf in Resources */,
+				047B92F826A995FA007DFC77 /* SF Pro Display_Regular.ttf in Resources */,
+				047B92F926A995FA007DFC77 /* SF Pro Display_Bold.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				2AAA9F8D24696A9100843FBD /* SF Pro Text Medium.otf in Resources */,
+				E6EB3B60BC9D4F5198C7F559 /* Northwell Alt.ttf in Resources */,
+				2AAA9F8B24696A9100843FBD /* SF Pro Text Bold.otf in Resources */,
+				196D911625A2AA0900DB7559 /* img_9.jpg in Resources */,
+				2446BABD3F5E41B9B8594839 /* Northwell Swash.ttf in Resources */,
+				6CA739C24FC641F8828E6B72 /* Northwell.ttf in Resources */,
+				2AAA9F8724696A9100843FBD /* SF Pro Text Heavy.otf in Resources */,
+				3A16CD82F353454E95DCF0DF /* Sofia Pro Black.otf in Resources */,
+				87635B787C8647AAAD9F663D /* Sofia Pro Bold.otf in Resources */,
+				89D218C4C4724983908D62F2 /* Sofia Pro ExtraLight.otf in Resources */,
+				196D911825A2AA0900DB7559 /* img_5.jpg in Resources */,
+				E68210901F6440D78B8B1ED9 /* Sofia Pro Light.otf in Resources */,
+				33A29B3021B32EC50087BB1B /* GoogleService-Info.plist in Resources */,
+				AF6F17B4010C43B5B06780C2 /* Sofia Pro Medium Italic.otf in Resources */,
+				196D911325A2AA0900DB7559 /* img_1.jpg in Resources */,
+				2AAA9F8924696A9100843FBD /* SF Pro Text Regular.otf in Resources */,
+				F4C1D36306E64A33B7C84DA8 /* Sofia Pro Medium.otf in Resources */,
+				2C664F7A7B774DBCB362E04D /* Sofia Pro Regular.otf in Resources */,
+				F7AA96E6DEE9452FB37987CD /* Sofia Pro Semi Bold.otf in Resources */,
+				196D911425A2AA0900DB7559 /* img_3.jpg in Resources */,
+				1905411E263BA7EF001451D2 /* BrandonGrotesque-Black.otf in Resources */,
+				196D911725A2AA0900DB7559 /* img_7.jpg in Resources */,
+				196D911125A2AA0900DB7559 /* img_6.jpg in Resources */,
+				2AAA9F8F24696A9100843FBD /* SF Pro Text Semibold Italic.otf in Resources */,
+				196D910F25A2AA0900DB7559 /* img_4.jpg in Resources */,
+				02E0EEC526B8136500035B38 /* GoogleService-Info.plist in Resources */,
+				196D911025A2AA0900DB7559 /* img_8.jpg in Resources */,
+				196D911225A2AA0900DB7559 /* img_0.jpg in Resources */,
+				196D911525A2AA0900DB7559 /* img_2.jpg in Resources */,
+				33A07FB221CB6A6D00CE0B22 /* LaunchScreen.xib in Resources */,
+				7D06CFE2CFE645BBB420C26F /* Northwell Alt.otf in Resources */,
+				50533B4FDA024E33B8BF490D /* Northwell Swash.otf in Resources */,
+				9809B7EEDB454FD29AD9EA44 /* Northwell.otf in Resources */,
+				2AAA9F9124696A9100843FBD /* SF Pro Text Thin.otf in Resources */,
+				D0B7763EDA3848F2852B578F /* AppCenter-Config.plist in Resources */,
+				2AAA9F9324696A9100843FBD /* SF Pro Text Light.otf in Resources */,
+				8DAB589B34D54E3BA9390691 /* SF Pro Display_Bold.ttf in Resources */,
+				692DA1B0585347BD9044792F /* SF Pro Display_Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DISABLE_XIP=true\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		B0812389BA45E0F1764CFF03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lsfmobileTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1C1F8E824DD286ED013D1A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lsfmobile/Pods-lsfmobile-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/MobileVLCKit/MobileVLCKit.framework/MobileVLCKit",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MobileVLCKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lsfmobile/Pods-lsfmobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE371624BBD71E66EF724650 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-lsfmobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC120B6FE36D5EE9B4BBA9BF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-lsfmobile/Pods-lsfmobile-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+				"${PODS_ROOT}/FBSDKCoreKit/FacebookSDKStrings.bundle",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.5.3_static/GoogleCast.framework/GoogleCastCoreResources.bundle",
+				"${PODS_ROOT}/google-cast-sdk/GoogleCastSDK-ios-4.5.3_static/GoogleCast.framework/GoogleCastUIResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FacebookSDKStrings.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AntDesign.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Entypo.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/EvilIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Feather.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Brands.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Regular.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FontAwesome5_Solid.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Fontisto.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Foundation.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Ionicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialCommunityIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Octicons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SimpleLineIcons.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Zocial.ttf",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastCoreResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleCastUIResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-lsfmobile/Pods-lsfmobile-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* lsfmobileTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19DEDFAE257C581A00750B64 /* File.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				6743B62622500BF700444EFB /* ProdChecker.m in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* lsfmobile */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33A07F8421CB6A6D00CE0B22 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33A07F8521CB6A6D00CE0B22 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D2DA589FF417B8A7DDC767 /* Pods-lsfmobileTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSF.app/LSF";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48B65707FF61802F3DC38392 /* Pods-lsfmobileTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSF.app/LSF";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB14F8977235C7FFF6862E4B /* Pods-lsfmobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = lsfmobile/lsfmobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 135;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+					"\"~/Documents/FacebookSDK\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../node_modules/react-native-orientation-locker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/rn-spotify-sdk/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/lottie-react-native/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.lsfmobile;
+				PRODUCT_NAME = LSF;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "lsfmobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D738D472C6B501EB7274F3E3 /* Pods-lsfmobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = lsfmobile/lsfmobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 135;
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+					"\"~/Documents/FacebookSDK\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../node_modules/react-native-orientation-locker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/rn-spotify-sdk/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/lottie-react-native/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.lsfmobile;
+				PRODUCT_NAME = LSF;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "lsfmobile-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		19AC62DA25CF8A28005610D7 /* ReleaseSkipPaywall */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = "SKIP_PAYWALL=1";
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = ReleaseSkipPaywall;
+		};
+		19AC62DB25CF8A28005610D7 /* ReleaseSkipPaywall */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4165D440CCAB7BBA0DF0CD2 /* Pods-lsfmobile.releaseskippaywall.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = lsfmobile/lsfmobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 135;
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+					"\"~/Documents/FacebookSDK\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../node_modules/react-native-orientation-locker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/rn-spotify-sdk/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/lottie-react-native/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.lsfmobile;
+				PRODUCT_NAME = LSF;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "lsfmobile-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = ReleaseSkipPaywall;
+		};
+		19AC62DC25CF8A28005610D7 /* ReleaseSkipPaywall */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5AE2D395D69B983E23BE6E9 /* Pods-lsfmobileTests.releaseskippaywall.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSF.app/LSF";
+			};
+			name = ReleaseSkipPaywall;
+		};
+		19AC632425CF8AD0005610D7 /* DebugSkipPaywall */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"SKIP_PAYWALL=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = DebugSkipPaywall;
+		};
+		19AC632525CF8AD0005610D7 /* DebugSkipPaywall */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 543A788A509C5C1A42072F96 /* Pods-lsfmobile.debugskippaywall.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = lsfmobile/lsfmobile.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 135;
+				DEAD_CODE_STRIPPING = NO;
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+					"\"~/Documents/FacebookSDK\"",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../node_modules/react-native-orientation-locker/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/rn-spotify-sdk/ios/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/react-native-fbsdk/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/lottie-react-native/src/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MARKETING_VERSION = 2.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.reactjs.native.example.lsfmobile;
+				PRODUCT_NAME = LSF;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "lsfmobile-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = "";
+				TARGETED_DEVICE_FAMILY = 1;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = DebugSkipPaywall;
+		};
+		19AC632625CF8AD0005610D7 /* DebugSkipPaywall */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A819688D4EA967230DF5653 /* Pods-lsfmobileTests.debugskippaywall.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4YPF27MH85;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/FirebaseAnalytics/Frameworks\"",
+					"\"${PODS_ROOT}/FirebaseInstanceID/Frameworks\"",
+					"\"${PODS_ROOT}/GoogleAppMeasurement/Frameworks\"",
+					"../node_modules/rn-spotify-sdk/ios/external/SpotifySDK",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../node_modules/react-native-firebase/ios/RNFirebase/**",
+					"$(SRCROOT)/../node_modules/react-native-events/ios",
+					"$(SRCROOT)/../node_modules/appcenter/ios/AppCenterReactNative",
+					"$(SRCROOT)/../node_modules/appcenter-analytics/ios/AppCenterReactNativeAnalytics",
+					"$(SRCROOT)/../node_modules/appcenter-crashes/ios/AppCenterReactNativeCrashes",
+					"$(SRCROOT)/../node_modules/react-native-facebook-keyframes/ios",
+					"$(SRCROOT)/../node_modules/react-native-google-cast/ios/RNGoogleCast",
+				);
+				INFOPLIST_FILE = lsfmobileTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LSF.app/LSF";
+			};
+			name = DebugSkipPaywall;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "lsfmobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				19AC632625CF8AD0005610D7 /* DebugSkipPaywall */,
+				00E356F71AD99517003FC87E /* Release */,
+				19AC62DC25CF8A28005610D7 /* ReleaseSkipPaywall */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "lsfmobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				19AC632525CF8AD0005610D7 /* DebugSkipPaywall */,
+				13B07F951A680F5B00A75B9A /* Release */,
+				19AC62DB25CF8A28005610D7 /* ReleaseSkipPaywall */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "lsfmobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				19AC632425CF8AD0005610D7 /* DebugSkipPaywall */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+				19AC62DA25CF8A28005610D7 /* ReleaseSkipPaywall */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

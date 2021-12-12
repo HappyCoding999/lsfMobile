@@ -1,0 +1,143 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+#target 'lsfmobile' do
+#  pod 'AppCenter/Crashes', '~> 2.5.3'
+# pod 'AppCenter/Analytics', '~> 2.5.3'
+#  pod 'AppCenterReactNativeShared', '~> 2.6.1'
+#  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+#  # use_frameworks!
+#
+#  # Pods for lsfmobile
+#  pod 'Firebase/Core'
+#  pod 'Firebase/Auth'
+#  pod 'Firebase/Database'
+#  pod 'Firebase/Storage'
+#
+#  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+#
+#  # # Add new pods below this line
+
+
+pod 'react-native-image-picker', :path => '../node_modules/react-native-image-picker'
+
+pod 'BVLinearGradient', :path => '../node_modules/react-native-linear-gradient'
+
+pod 'react-native-vlc-media-player', :path => '../node_modules/react-native-vlc-media-player'
+
+pod 'react-native-video', :path => '../node_modules/react-native-video'
+
+pod 'RNGoogleSignin', :path => '../node_modules/@react-native-google-signin/google-signin'
+
+# pod 'react-native-pager-view', :path => '../node_modules/react-native-pager-view'
+
+pod 'react-native-safe-area-context', :path => '../node_modules/react-native-safe-area-context'
+
+pod 'RNEventEmitter', :path => '../node_modules/react-native-events'
+
+pod 'react-native-add-calendar-event', :path => '../node_modules/react-native-add-calendar-event'
+
+# pod 'appcenter-core', :path => '../node_modules/appcenter'
+
+pod 'RNSpotify', :path => '../node_modules/rn-spotify-sdk'
+
+##  pod 'react-native-get-random-values', :path => '../node_modules/react-native-get-random-values'
+#
+##  pod 'RNAppleAuthentication', :path => '../node_modules/@invertase/react-native-apple-authentication'
+#
+#  pod 'react-native-blur', :path => '../node_modules/@react-native-community/blur'
+#  pod 'RNGestureHandler', :path => '../node_modules/react-native-gesture-handler'
+#
+#  pod 'toolbar-android', :path => '../node_modules/@react-native-community/toolbar-android'
+#
+#  pod 'RNShare', :path => '../node_modules/react-native-share'
+#
+#  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+#
+#
+#  pod 'react-native-branch', :path => '../node_modules/react-native-branch'
+#
+#  pod 'react-native-background-timer', :path => '../node_modules/react-native-background-timer'
+#
+#  pod 'React', :path => '../node_modules/react-native'
+#  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga/yoga.podspec'
+#  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+#
+#  pod 'react-native-google-cast', path: '../node_modules/react-native-google-cast/ios/'
+#  pod 'google-cast-sdk', '4.5.3'
+#
+#  # pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+#
+#
+#  platform :ios, '9.0'
+platform :ios, '9.0'
+require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
+
+target 'lsfmobile' do
+  # Pods for lsfmobile
+#  use_frameworks!
+#   use_modular_headers!
+  use_native_modules!
+  
+  pod 'React', :path => '../node_modules/react-native/'
+  pod 'React-Core', :path => '../node_modules/react-native/React'
+  pod 'React-DevSupport', :path => '../node_modules/react-native/React'
+  pod 'React-fishhook', :path => '../node_modules/react-native/Libraries/fishhook'
+  pod 'React-RCTActionSheet', :path => '../node_modules/react-native/Libraries/ActionSheetIOS'
+  pod 'React-RCTAnimation', :path => '../node_modules/react-native/Libraries/NativeAnimation'
+  pod 'React-RCTBlob', :path => '../node_modules/react-native/Libraries/Blob'
+  pod 'React-RCTImage', :path => '../node_modules/react-native/Libraries/Image'
+  pod 'React-RCTLinking', :path => '../node_modules/react-native/Libraries/LinkingIOS'
+  pod 'React-RCTNetwork', :path => '../node_modules/react-native/Libraries/Network'
+  pod 'React-RCTSettings', :path => '../node_modules/react-native/Libraries/Settings'
+  pod 'React-RCTText', :path => '../node_modules/react-native/Libraries/Text'
+  pod 'React-RCTVibration', :path => '../node_modules/react-native/Libraries/Vibration'
+  pod 'React-RCTWebSocket', :path => '../node_modules/react-native/Libraries/WebSocket'
+
+  pod 'React-cxxreact', :path => '../node_modules/react-native/ReactCommon/cxxreact'
+  pod 'React-jsi', :path => '../node_modules/react-native/ReactCommon/jsi'
+  pod 'React-jsiexecutor', :path => '../node_modules/react-native/ReactCommon/jsiexecutor'
+  pod 'React-jsinspector', :path => '../node_modules/react-native/ReactCommon/jsinspector'
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga'
+
+  pod 'DoubleConversion', :podspec => '../node_modules/react-native/third-party-podspecs/DoubleConversion.podspec'
+  pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
+  pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
+  pod 'RNCAsyncStorage', :path => '../node_modules/@react-native-community/async-storage'
+  
+  pod 'AppCenter/Crashes', '~> 4.0'
+  pod 'AppCenter/Analytics', '~> 4.0'
+  pod 'AppCenterReactNativeShared', '~> 4.0'
+
+#  pod 'appcenter', path: '../node_modules/appcenter/ios'
+#  pod 'appcenter-analytics', path: '../node_modules/appcenter-analytics/ios'
+#  pod 'appcenter-crashes', path: '../node_modules/appcenter-crashes/ios'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
+  pod 'google-cast-sdk', '4.5.3'
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase/ios'
+  pod 'react-native-fbsdk', :path => '../node_modules/react-native-fbsdk'
+  pod 'react-native-branch', :path => '../node_modules/react-native-branch'
+  pod 'lottie-react-native', :path => '../node_modules/lottie-react-native'
+  pod 'MobileVLCKit', '3.3.17'
+
+  target 'lsfmobileTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+  
+  pre_install do |installer|
+    # workaround for https://github.com/CocoaPods/CocoaPods/issues/3289
+    Pod::Installer::Xcode::TargetValidator.send(:define_method, :verify_no_static_framework_transitive_dependencies) {}
+  end
+  
+  post_install do |installer_representation|
+    installer_representation.pods_project.targets.each do |target|
+      if target.name == "React"
+        target.remove_from_project
+      end
+    end
+  end
+end

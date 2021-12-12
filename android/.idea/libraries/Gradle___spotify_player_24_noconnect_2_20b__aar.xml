@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: :spotify-player-24-noconnect-2.20b:@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/9e25376394d8c13afaacd3ee0df764a5/jetified-spotify-player-24-noconnect-2.20b/jars/classes.jar!/" />
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/9e25376394d8c13afaacd3ee0df764a5/jetified-spotify-player-24-noconnect-2.20b/jars/libs/jnihelpers-1.0.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/9e25376394d8c13afaacd3ee0df764a5/jetified-spotify-player-24-noconnect-2.20b/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/9e25376394d8c13afaacd3ee0df764a5/jetified-spotify-player-24-noconnect-2.20b/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

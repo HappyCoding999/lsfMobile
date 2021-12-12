@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="11" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/../node_modules/@invertase/react-native-apple-authentication/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/async-storage/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/blur/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/cameraroll/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-community/toolbar-android/android" />
+            <option value="$PROJECT_DIR$/../node_modules/@react-native-google-signin/google-signin/android" />
+            <option value="$PROJECT_DIR$/../node_modules/appcenter-analytics/android" />
+            <option value="$PROJECT_DIR$/../node_modules/appcenter-crashes/android" />
+            <option value="$PROJECT_DIR$/../node_modules/appcenter/android" />
+            <option value="$PROJECT_DIR$/../node_modules/lottie-react-native/src/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-add-calendar-event/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-background-timer/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-branch/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-camera/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-events/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-fbsdk/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-firebase/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-fs/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-gesture-handler/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-google-cast/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-iap/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-image-picker/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-linear-gradient/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-orientation-locker/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-safe-area-context/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-share/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-svg/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-uuid-generator/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-vector-icons/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-video/android-exoplayer" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-view-shot/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-vlc-media-player/android" />
+            <option value="$PROJECT_DIR$/../node_modules/react-native-webview/android" />
+            <option value="$PROJECT_DIR$/../node_modules/rn-fetch-blob/android" />
+            <option value="$PROJECT_DIR$/../node_modules/rn-spotify-sdk/android" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

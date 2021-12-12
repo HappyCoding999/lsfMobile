@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-database:19.4.0@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/0aa66e20684341b023a60d19aac9d3bd/jetified-firebase-database-19.4.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/0aa66e20684341b023a60d19aac9d3bd/jetified-firebase-database-19.4.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/0aa66e20684341b023a60d19aac9d3bd/jetified-firebase-database-19.4.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.google.firebase/firebase-database/19.4.0/f8d7af23aa743ebf2c971376a194db6049d5d17e/firebase-database-19.4.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.google.firebase/firebase-database/19.4.0/c94835291b96a1c14c8be801be938c88a1e13ce5/firebase-database-19.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>LSF</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb290058114941648</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>io.branch.sdk</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>lsfapp</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>io.branch.sdk.link</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>lsfmobile</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.34610947007-mklgfqbv22fukun4rmrip7kpb376apbu</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FacebookAppID</key>
+	<string>290058114941648</string>
+	<key>FacebookDisplayName</key>
+	<string>Love Sweat Fitness</string>
+	<key>ITSAppUsesNonExemptEncryption</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string>public.app-category.healthcare-fitness</string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>fbapi</string>
+		<string>fb-messenger-api</string>
+		<string>fbauth2</string>
+		<string>fbshareextension</string>
+		<string>youtube</string>
+		<string>spotify</string>
+		<string>instagram</string>
+		<string>music</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSAllowsArbitraryLoadsInWebContent</key>
+		<true/>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>${PRODUCT_NAME} uses Bluetooth to discover nearby Cast devices.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>${PRODUCT_NAME} uses Bluetooth to discover nearby Cast devices.</string>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_googlecast._tcp</string>
+		<string>_CC1AD845._googlecast._tcp</string>
+	</array>
+	<key>NSCalendarsUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your calendar for saving workouts and settings reminders</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your camera for taking and sharing selfies </string>
+	<key>NSContactsUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your contacts</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>${PRODUCT_NAME} uses the local network to discover Cast-enabled devices on your WiFi network.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your location, and stems from a library we use. Your location is never shared in this app.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your location, and stems from a library we use. Your location is never shared in this app.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your location, and stems from a library we use. Your location is never shared in this app.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Love Sweat Fitness would like to use your microphone (for videos)</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>Love Sweat Fitness would like to save photos to your photo gallery to save and share images. Your photos wont be shared without your permission.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Love Sweat Fitness would like access to your photo gallery for profile upload. Your photos wont be shared without your permission.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>We and our partners store and/or access information on your device and process personal data, such as your device’s advertising identifier, for audience insights, and to develop and improve products.
+
+You can update your preferences at any time under this app’s application settings.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Northwell Alt.ttf</string>
+		<string>Northwell Swash.ttf</string>
+		<string>Northwell.ttf</string>
+		<string>Sofia Pro Black.otf</string>
+		<string>SF Pro Text Bold.otf</string>
+		<string>SF Pro Text Heavy.otf</string>
+		<string>SF Pro Text Light.otf</string>
+		<string>SF Pro Text Medium.otf</string>
+		<string>SF Pro Text Regular.otf</string>
+		<string>SF Pro Text Semibold Italic.otf</string>
+		<string>SF Pro Text Thin.otf</string>
+		<string>Sofia Pro Bold.otf</string>
+		<string>Sofia Pro ExtraLight.otf</string>
+		<string>Sofia Pro Light.otf</string>
+		<string>Sofia Pro Medium Italic.otf</string>
+		<string>Sofia Pro Medium.otf</string>
+		<string>Sofia Pro Regular.otf</string>
+		<string>Sofia Pro Semi Bold.otf</string>
+		<string>AntDesign.ttf</string>
+		<string>Entypo.ttf</string>
+		<string>EvilIcons.ttf</string>
+		<string>Feather.ttf</string>
+		<string>FontAwesome.ttf</string>
+		<string>FontAwesome5_Brands.ttf</string>
+		<string>FontAwesome5_Regular.ttf</string>
+		<string>FontAwesome5_Solid.ttf</string>
+		<string>BrandonGrotesque-Black.otf</string>
+		<string>Foundation.ttf</string>
+		<string>Ionicons.ttf</string>
+		<string>MaterialCommunityIcons.ttf</string>
+		<string>MaterialIcons.ttf</string>
+		<string>Octicons.ttf</string>
+		<string>SimpleLineIcons.ttf</string>
+		<string>Zocial.ttf</string>
+		<string>Northwell Alt.otf</string>
+		<string>Northwell Swash.otf</string>
+		<string>Northwell.otf</string>
+		<string>Fontisto.ttf</string>
+		<string>SF Pro Display_Bold.ttf</string>
+		<string>SF Pro Display_Regular.ttf</string>
+	</array>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+		<string>fetch</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>branch_app_domain</key>
+	<string>lsf.app.link</string>
+	<key>branch_key</key>
+	<string>key_live_kmPQb59vkwSy7W7vi8BfBfghsAlIkMA7</string>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>lsf.app.link</string>
+		<string>lsf-alternate.app.link</string>
+	</array>
+</dict>
+</plist>

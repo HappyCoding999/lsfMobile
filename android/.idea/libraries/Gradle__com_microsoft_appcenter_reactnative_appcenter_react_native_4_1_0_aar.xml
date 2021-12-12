@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.microsoft.appcenter.reactnative:appcenter-react-native:4.1.0@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/61da0e117c20676c5cc39d7c66fce0dd/jetified-appcenter-react-native-4.1.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/61da0e117c20676c5cc39d7c66fce0dd/jetified-appcenter-react-native-4.1.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/61da0e117c20676c5cc39d7c66fce0dd/jetified-appcenter-react-native-4.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.microsoft.appcenter.reactnative/appcenter-react-native/4.1.0/5e1607fbcd559c4965f5b9f1b3502c0fcd30db9e/appcenter-react-native-4.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

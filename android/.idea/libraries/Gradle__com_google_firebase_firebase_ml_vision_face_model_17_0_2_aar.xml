@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-ml-vision-face-model:17.0.2@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/f07f73155eaca4c4e19a0d74a1ca79de/jetified-firebase-ml-vision-face-model-17.0.2/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/f07f73155eaca4c4e19a0d74a1ca79de/jetified-firebase-ml-vision-face-model-17.0.2/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/f07f73155eaca4c4e19a0d74a1ca79de/jetified-firebase-ml-vision-face-model-17.0.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

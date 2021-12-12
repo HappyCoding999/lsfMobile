@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.eightbitlab:blurview:1.6.3@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/1d0e46c993d880c950cd5d0dd52ca5fa/jetified-blurview-1.6.3/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/1d0e46c993d880c950cd5d0dd52ca5fa/jetified-blurview-1.6.3/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/1d0e46c993d880c950cd5d0dd52ca5fa/jetified-blurview-1.6.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.eightbitlab/blurview/1.6.3/ae56f8d7992ed894beb5b6c01338193bfb0042ba/blurview-1.6.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.eightbitlab/blurview/1.6.3/14d3e7dcdda085d89df01523a28a5ccfe65c4c66/blurview-1.6.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

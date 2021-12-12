@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.fresco:nativeimagetranscoder:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/7162de8310dffa8f7361e2494f5c9e03/jetified-nativeimagetranscoder-2.0.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/7162de8310dffa8f7361e2494f5c9e03/jetified-nativeimagetranscoder-2.0.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/7162de8310dffa8f7361e2494f5c9e03/jetified-nativeimagetranscoder-2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.facebook.fresco/nativeimagetranscoder/2.0.0/932ea9d534186b04741da83dfd2a084858b387c3/nativeimagetranscoder-2.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.facebook.fresco/nativeimagetranscoder/2.0.0/fb21c65434fc60833b60f9d81f255de5db0dde47/nativeimagetranscoder-2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

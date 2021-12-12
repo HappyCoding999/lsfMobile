@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "34610947007",
+    "firebase_url": "https://lsf-development.firebaseio.com",
+    "project_id": "lsf-development",
+    "storage_bucket": "lsf-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:34610947007:android:5270b54143720e42",
+        "android_client_info": {
+          "package_name": "com.lsfmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "34610947007-i38sg59a9mmamdjsdm35b1p0ee9l40i5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lsfmobile",
+            "certificate_hash": "0515ee2efa91d0a9bfbe6c4ffb0a0b782865bf28"
+          }
+        },
+        {
+          "client_id": "34610947007-vc7qo4jcut2og01fake77gv20rae3id5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.lsfmobile",
+            "certificate_hash": "a23412887a6072ff91f0f2df8083e2f987796361"
+          }
+        },
+        {
+          "client_id": "34610947007-lkc5lpsf32q71bpnjsc8o2cki1j690l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBoSm4LoEncoHQZhtEqkIxnlGT-d2_np4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "34610947007-lkc5lpsf32q71bpnjsc8o2cki1j690l8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "34610947007-mklgfqbv22fukun4rmrip7kpb376apbu.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.lsfmobile"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

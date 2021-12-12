@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lsfmobile.iml" filepath="$PROJECT_DIR$/.idea/modules/lsfmobile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-243209584/lsfmobile.@invertase_react-native-apple-authentication.iml" filepath="$PROJECT_DIR$/.idea/modules/-243209584/lsfmobile.@invertase_react-native-apple-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-16737235/lsfmobile.@react-native-community_async-storage.iml" filepath="$PROJECT_DIR$/.idea/modules/-16737235/lsfmobile.@react-native-community_async-storage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1296020164/lsfmobile.@react-native-community_blur.iml" filepath="$PROJECT_DIR$/.idea/modules/1296020164/lsfmobile.@react-native-community_blur.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/752783039/lsfmobile.@react-native-community_cameraroll.iml" filepath="$PROJECT_DIR$/.idea/modules/752783039/lsfmobile.@react-native-community_cameraroll.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-99947936/lsfmobile.@react-native-community_toolbar-android.iml" filepath="$PROJECT_DIR$/.idea/modules/-99947936/lsfmobile.@react-native-community_toolbar-android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/456676166/lsfmobile.@react-native-google-signin_google-signin.iml" filepath="$PROJECT_DIR$/.idea/modules/456676166/lsfmobile.@react-native-google-signin_google-signin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/lsfmobile.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/lsfmobile.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/606722119/lsfmobile.appcenter.iml" filepath="$PROJECT_DIR$/.idea/modules/606722119/lsfmobile.appcenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1516464000/lsfmobile.appcenter-analytics.iml" filepath="$PROJECT_DIR$/.idea/modules/-1516464000/lsfmobile.appcenter-analytics.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/664452879/lsfmobile.appcenter-crashes.iml" filepath="$PROJECT_DIR$/.idea/modules/664452879/lsfmobile.appcenter-crashes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/102170681/lsfmobile.lottie-react-native.iml" filepath="$PROJECT_DIR$/.idea/modules/102170681/lsfmobile.lottie-react-native.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/185469808/lsfmobile.react-native-add-calendar-event.iml" filepath="$PROJECT_DIR$/.idea/modules/185469808/lsfmobile.react-native-add-calendar-event.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1705436513/lsfmobile.react-native-background-timer.iml" filepath="$PROJECT_DIR$/.idea/modules/-1705436513/lsfmobile.react-native-background-timer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1551558245/lsfmobile.react-native-branch.iml" filepath="$PROJECT_DIR$/.idea/modules/-1551558245/lsfmobile.react-native-branch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/291996702/lsfmobile.react-native-camera.iml" filepath="$PROJECT_DIR$/.idea/modules/291996702/lsfmobile.react-native-camera.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1178440174/lsfmobile.react-native-events.iml" filepath="$PROJECT_DIR$/.idea/modules/-1178440174/lsfmobile.react-native-events.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1590705755/lsfmobile.react-native-fbsdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-1590705755/lsfmobile.react-native-fbsdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1250988352/lsfmobile.react-native-firebase.iml" filepath="$PROJECT_DIR$/.idea/modules/-1250988352/lsfmobile.react-native-firebase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1462819398/lsfmobile.react-native-fs.iml" filepath="$PROJECT_DIR$/.idea/modules/1462819398/lsfmobile.react-native-fs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1539430995/lsfmobile.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-1539430995/lsfmobile.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2077548614/lsfmobile.react-native-google-cast.iml" filepath="$PROJECT_DIR$/.idea/modules/-2077548614/lsfmobile.react-native-google-cast.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-596664897/lsfmobile.react-native-iap.iml" filepath="$PROJECT_DIR$/.idea/modules/-596664897/lsfmobile.react-native-iap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1388903545/lsfmobile.react-native-image-picker.iml" filepath="$PROJECT_DIR$/.idea/modules/1388903545/lsfmobile.react-native-image-picker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-919479873/lsfmobile.react-native-linear-gradient.iml" filepath="$PROJECT_DIR$/.idea/modules/-919479873/lsfmobile.react-native-linear-gradient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1175490862/lsfmobile.react-native-orientation-locker.iml" filepath="$PROJECT_DIR$/.idea/modules/1175490862/lsfmobile.react-native-orientation-locker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1273067818/lsfmobile.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/-1273067818/lsfmobile.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1448475270/lsfmobile.react-native-share.iml" filepath="$PROJECT_DIR$/.idea/modules/1448475270/lsfmobile.react-native-share.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2130904629/lsfmobile.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-2130904629/lsfmobile.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1427931334/lsfmobile.react-native-uuid-generator.iml" filepath="$PROJECT_DIR$/.idea/modules/-1427931334/lsfmobile.react-native-uuid-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1280796343/lsfmobile.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/-1280796343/lsfmobile.react-native-vector-icons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/490234642/lsfmobile.react-native-video.iml" filepath="$PROJECT_DIR$/.idea/modules/490234642/lsfmobile.react-native-video.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1341465271/lsfmobile.react-native-view-shot.iml" filepath="$PROJECT_DIR$/.idea/modules/-1341465271/lsfmobile.react-native-view-shot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-754318589/lsfmobile.react-native-vlc-media-player.iml" filepath="$PROJECT_DIR$/.idea/modules/-754318589/lsfmobile.react-native-vlc-media-player.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1246410464/lsfmobile.react-native-webview.iml" filepath="$PROJECT_DIR$/.idea/modules/1246410464/lsfmobile.react-native-webview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1397046766/lsfmobile.rn-fetch-blob.iml" filepath="$PROJECT_DIR$/.idea/modules/-1397046766/lsfmobile.rn-fetch-blob.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1979929445/lsfmobile.rn-spotify-sdk.iml" filepath="$PROJECT_DIR$/.idea/modules/1979929445/lsfmobile.rn-spotify-sdk.iml" />
+    </modules>
+  </component>
+</project>

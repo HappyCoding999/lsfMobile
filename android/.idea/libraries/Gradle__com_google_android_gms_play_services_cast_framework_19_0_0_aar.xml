@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.android.gms:play-services-cast-framework:19.0.0@aar">
+    <CLASSES>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/8bb48fa4e7fc67275a2a0f869783111a/jetified-play-services-cast-framework-19.0.0/jars/classes.jar!/" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/8bb48fa4e7fc67275a2a0f869783111a/jetified-play-services-cast-framework-19.0.0/res" />
+      <root url="file://$APPLICATION_HOME_DIR$/jre/caches/transforms-2/files-2.1/8bb48fa4e7fc67275a2a0f869783111a/jetified-play-services-cast-framework-19.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$APPLICATION_HOME_DIR$/jre/caches/modules-2/files-2.1/com.google.android.gms/play-services-cast-framework/19.0.0/321059ccaa7689d515beaf75f66247a6b4f35f2c/play-services-cast-framework-19.0.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES />
+  </library>
+</component>
