@@ -1,21 +1,25 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add -D metro-react-native-babel-preset
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js install
 
 PATH: 
-  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+  C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files (x86)\Yarn\bin\;C:\Program Files\Git\cmd;C:\Users\Halle\AppData\Local\Android\Sdk\platform-tools;C:\Users\Halle\AppData\Local\Android\Sdk\emulator;C:\Program Files\dotnet\;C:\Program Files\PuTTY\;D:\xampp\php;D:\composer;C:\Users\Halle\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Halle\AppData\Local\Programs\Python\Python39\;C:\Users\Halle\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\Halle\AppData\Roaming\npm;C:\Users\Halle\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Halle\AppData\Local\Yarn\bin;C:\Users\Halle\AppData\Local\GitHubDesktop\bin;C:\Users\Halle\AppData\Local\Android\Sdk\platform-tools;C:\UsersHalle\AppData\Local\Android\Sdk\platform-tools;C:\Users\Halle\.dotnet\tools;C:\Users\Halle\AppData\Roaming\Composer\vendor\bin
 
 Yarn version: 
-  1.16.0
+  1.22.4
 
 Node version: 
-  12.18.0
+  16.11.0
 
 Platform: 
-  darwin x64
+  win32 x64
 
 Trace: 
-  Error: getaddrinfo ENOTFOUND registry.yarnpkg.com
-      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:66:26)
+  SyntaxError: D:\Working\ReactNative\lsfMobile\package.json: Unexpected token / in JSON at position 3617
+      at JSON.parse (<anonymous>)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:310:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:321:13
 
 npm manifest: 
   {
@@ -34,6 +38,7 @@ npm manifest:
       "@react-native-community/async-storage": "^1.12.1",
       "@react-native-community/blur": "^3.6.0",
       "@react-native-community/cameraroll": "^4.0.4",
+      "@react-native-community/cli": "^4.14.0",
       "@react-native-community/toolbar-android": "0.1.0-rc.2",
       "@react-native-google-signin/google-signin": "^6.0.1",
       "appcenter": "4.1.0",
@@ -56,6 +61,7 @@ npm manifest:
       "react-native-calendars": "^1.204.0",
       "react-native-camera": "^3.44.1",
       "react-native-clean-project": "^3.6.4",
+      "react-native-collapsible-tab-view": "^4.2.1",
       "react-native-elements": "^0.19.1",
       "react-native-event-listeners": "^1.0.3",
       "react-native-events": "^1.0.15",
@@ -66,7 +72,7 @@ npm manifest:
       "react-native-google-cast": "git+https://git@github.com/equizno345/react-native-google-cast.git#v3LSFa",
       "react-native-gridview": "^0.1.2",
       "react-native-iap": "^4.6.0",
-      "react-native-image-picker": "1.0.1",
+      "react-native-image-picker": "^1.0.1",
       "react-native-keyboard-aware-scroll-view": "^0.8.0",
       "react-native-linear-gradient": "^2.5.6",
       "react-native-material-dropdown": "^0.11.1",
@@ -84,13 +90,14 @@ npm manifest:
       "react-native-ui-xg": "0.0.6",
       "react-native-uuid-generator": "^5.0.0",
       "react-native-vector-icons": "^6.7.0",
-      "react-native-video": "^4.4.0",
+      "react-native-video": "^4.4.4",
       "react-native-video-controls": "^2.7.1",
       "react-native-view-shot": "^2.6.0",
+      "react-native-vlc-media-player": "^1.0.39",
       "react-native-waveview": "^1.1.0",
       "react-native-webview": "^5.0.1",
       "react-navigation": "^2.18.3",
-      "react-redux": "^5.1.1",
+      "react-redux": "^5.1.2",
       "redux": "^4.0.4",
       "redux-thunk": "^2.3.0",
       "remove-accents": "^0.4.2",
@@ -106,6 +113,7 @@ npm manifest:
       "babel-core": "^7.0.0-bridge.0",
       "babel-jest": "^23.4.2",
       "jest": "^24.8.0",
+      "metro": "^0.54.1",
       "metro-react-native-babel-preset": "^0.55.0",
       "react-test-renderer": "16.8.6"
     },
@@ -114,14 +122,14 @@ npm manifest:
         "res/fonts"
       ]
     },
-    "workspaces": {
-      "nohoist": [
-        "react-native",
-        "react-native/**",
-        "react",
-        "react/**"
-      ]
-    }
+    // "workspaces": {
+    //   "nohoist": [
+    //     "react-native",
+    //     "react-native/**",
+    //     "react",
+    //     "react/**"
+    //   ]
+    // }
   }
 
 yarn manifest: 
